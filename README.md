@@ -28,11 +28,11 @@
 
 ### **1. Upload & Analyze Interface**
 Experience a streamlined process for uploading your meeting audio and initiating AI analysis.
-![Front End Dashboard](public/Front_ui.png)
+![Frontend Dashboard](frontend/public/Front_ui.png)
 
 ### **2. Comprehensive Results Display**
 View your meeting's executive summary, sentiment analysis, and detailed transcript in an organized, digestible format.
-![AI Meeting Results](public/Result_display.png)
+![Results Display](frontend/public/Result_display.png)
 
 ---
 
