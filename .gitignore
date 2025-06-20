@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+*.pyc
+config.py
+node_modules/
+dist/
+.env
+.DS_Store
+*.log
+*.sqlite
+*.db
+.temp/
+temp/
+public/Front_ui.png
+public/Result_display.png
+
