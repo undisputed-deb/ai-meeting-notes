@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+.env
+config.py    # (only if it has secrets—otherwise keep it!)
+*.log
+temp/
