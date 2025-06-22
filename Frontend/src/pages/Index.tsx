@@ -28,10 +28,13 @@ const Index = () => {
       const formData = new FormData();
       formData.append("audio", selectedFile);
 
-      const response = await fetch("http://127.0.0.1:5000/api/process-audio", {
-        method: "POST",
-        body: formData,
-      });
+      const backendUrl = import.meta.env.VITE_BACKEND_URL;
+
+const response = await fetch(`${backendUrl}/api/process-audio`, {
+  method: "POST",
+  body: formData,
+});
+
 
       if (!response.ok) throw new Error("Processing failed");
 

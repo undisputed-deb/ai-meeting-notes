@@ -5,3 +5,4 @@ __pycache__/
 config.py    # (only if it has secrets—otherwise keep it!)
 *.log
 temp/
+
