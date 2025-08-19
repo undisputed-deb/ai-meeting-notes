@@ -96,3 +96,15 @@ def process_audio():
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000)
+
+
+# For Vercel deployment
+if __name__ == '__main__':
+    app.run()
+
+# For Vercel deployment
+if __name__ == '__main__':
+    app.run()
+
+# Export for Vercel
+application = app
