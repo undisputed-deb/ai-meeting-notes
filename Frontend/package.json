@@ -81,5 +81,10 @@
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.1",
     "vite": "^5.4.1"
-  }
+  },
+  "description": "Transform your meeting recordings into actionable insights with **AI-powered transcription, summarization, sentiment analysis, and more**. This project includes a robust **backend** (Python, Flask, Gemini AI, MongoDB) and a beautiful, interactive **frontend** (React + TypeScript).",
+  "main": "eslint.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
